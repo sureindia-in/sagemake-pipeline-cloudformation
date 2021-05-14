@@ -13,3 +13,7 @@ Episode 3 - Deep dive into Amazon SageMaker Feature Store
 Episode 4 - End to end automation with Amazon Pipelines and Amazon CloudFormation
 
 Episode 5 - Scaling Natural Language Processing with Hugging Face and Amazon SageMaker
+
+Episode 6 - Cost optimization on Amazon SageMaker
+
+Episode 7 - AutoML with SageMaker AutoPilot and AutoGluon
