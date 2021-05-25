@@ -4,7 +4,7 @@ def pip_install(package):
     subprocess.call([sys.executable, "-m", "pip", "install", package])
     
 pip_install("transformers>=4.4.2")
-pip_install("datasets[s3]>=1.5.0")
+pip_install("datasets[s3]==1.5.0")
 
 import transformers
 import datasets
