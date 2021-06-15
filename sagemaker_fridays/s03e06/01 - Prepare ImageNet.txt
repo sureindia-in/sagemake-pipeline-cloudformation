@@ -12,7 +12,7 @@ $ nohup bash download_imagenet.sh . synsets.txt >& download.log &
 # Install dependencies (Amazon Linux 2)
 #
 $ sudo yum -y install python-devel python-pip opencv opencv-devel opencv-python
-$ pip install  mxnet --user
+$ pip3 install mxnet opencv-python --user
 
 #
 # Build validation image tree
@@ -28,10 +28,10 @@ $ cd ../..
 #
 $ wget https://raw.githubusercontent.com/apache/incubator-mxnet/master/tools/im2rec.py
 $ cd imagenet
-$ python ../im2rec.py --list --chunks 6 --recursive val validation
-$ python ../im2rec.py --num-thread 16 --resize 224 val_ validation
-$ python ../im2rec.py --list --chunks 140 --recursive train train
-$ python ../im2rec.py --num-thread 16 --resize 224 train_ train
+$ python3 ../im2rec.py --list --chunks 6 --recursive val validation
+$ python3 ../im2rec.py --num-thread 16 --resize 224 val_ validation
+$ python3 ../im2rec.py --list --chunks 140 --recursive train train
+$ python3 ../im2rec.py --num-thread 16 --resize 224 train_ train
 
 #
 # Sync files to S3
