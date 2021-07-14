@@ -17,3 +17,5 @@ Episode 5 - Scaling Natural Language Processing with Hugging Face and Amazon Sag
 Episode 6 - Cost optimization on Amazon SageMaker
 
 Episode 7 - AutoML with SageMaker AutoPilot and AutoGluon
+
+Episode 8 - Importing and exporting models on Amazon SageMaker
